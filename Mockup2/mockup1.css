@@ -1,0 +1,16 @@
+div header{
+		background-color: #000000;
+		color:#FFFFFF;
+		font-family:Arial;
+		text-align: center;
+		
+		padding: 1px 0 0 0;
+}
+
+col {
+		float:left;
+		width:280px;
+		height:350px;
+		padding:40px 40 40 40;
+		border: 0.5px solid #000000;
+}
