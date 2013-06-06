@@ -87,9 +87,53 @@ nav#mainnav a:active {
 
 
 
+
+
 div#search {
-	margin: 145px 50px 10px 0;
+	margin: 130px 50px 10px 0;
 	text-align:right;
+	
+}
+
+
+
+#searchbox {
+	   background: #22B573;
+	   outline: none;
+	   color: white;
+	   border: 0 none;
+	   height:30px;
+	
+	   
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+    
+ }
+
+select {
+	background: white;
+	outline: none;
+	 height:30px;
+
+	 
+	 
+}
+
+
+
+
+#submit {
+    border: 0 none;
+    background: #22B573  center no-repeat;
+    width: 60px;
+    color: white;
+
+    padding: 0;
+    text-align: center;
+    height: 30px;
+    cursor: pointer;
 }
 
 
@@ -124,6 +168,7 @@ section {
 		margin: 20px 0px 6px 50px;
 		border: 0px solid #22B573;
 		float:left;
+		
 }
 
 .col header{
@@ -171,3 +216,5 @@ div#upcomingevents a:active {
 	color: #FF5500;
 	text-decoration:none;
 }
+
+
