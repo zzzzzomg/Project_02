@@ -98,7 +98,19 @@ div#Eventslideshow {
 	list-style-type: none;
 	float:left;
 	background-color:#22B573;
-	margin-left: 50px;
-	
+	margin-left: 50px;	
+
+}
+
+div#upcomingevents {
+	margin-left:974px;
+	margin-right:50px;
+	margin-bottom: 100px;
+	color:white;
+	background-color:#404041;
+	padding-top:10px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:28px;
 
 }
