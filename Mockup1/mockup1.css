@@ -18,6 +18,7 @@ div#logo {
 
 div#Eventslideshow {
 	list-style-type: none;
+	text-decoration:none;
 
 }
 
@@ -60,7 +61,7 @@ nav#mainnav {
 	}
 	
 nav#mainnav li {
-	margin-right: 10px;
+	margin: 100px;
 }
 
 
@@ -69,12 +70,12 @@ nav#mainnav li {
 
 
 nav#mainnav a:link {
-	color:white;#000000;
+	color:black;
 	text-decoration:none;
 }
 
 nav#mainnav a:visited {
-	color: #000000;
+	color: black;
 	text-decoration:none;
 }
 
