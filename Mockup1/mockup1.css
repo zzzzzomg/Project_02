@@ -14,14 +14,6 @@ div#logo {
 }
 
 
-
-
-div#Eventslideshow {
-	list-style-type: none;
-	text-decoration:none;
-
-}
-
 nav#accountnav {
 	
 	text-align:right;
@@ -57,7 +49,7 @@ nav#accountnav a:active {
 nav#mainnav {
 	
 	float: left;
-	margin: 125px 0 10px 15px;
+	margin: 145px 0 10px 15px;
 	}
 	
 nav#mainnav li {
@@ -95,15 +87,18 @@ nav#mainnav a:active {
 
 
 
-
-
-
-
-
-
-
-
 div#search {
-	margin: 125px 50px 10px 0;
+	margin: 145px 50px 10px 0;
 	text-align:right;
+}
+
+
+
+div#Eventslideshow {
+	list-style-type: none;
+	float:left;
+	background-color:#22B573;
+	margin-left: 50px;
+	
+
 }
