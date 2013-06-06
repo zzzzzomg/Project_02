@@ -1,19 +1,19 @@
 section {
-		width:280px;
+		width:381px;
 		height:200px;
 		padding:0px 0 0 0;
-		margin: 20px 6px 6px 6px;
-		border: 1px solid #496157;
+		margin: 20px 12px 12px 12px;
+		border: 0px solid #496157;
 		float:left;
 }
 
-div header{
+.col header{
 		background-color: #2B9E74;
 		padding-top: 10px;
 		height: 30px;
 }
 
-h3 {
+.col h3 {
 		color:white;
 		font-family:Arial;
 		text-align: center;
@@ -21,14 +21,14 @@ h3 {
 		margin: 0px 0 0 0;
 }
 
-p {
+.col p {
 		color:#000000;
 		font-family:Arial, san-serif;
 		font-size: 12px;
-		margin: 5px 10px 5px 10px;
+		margin: 5px 0px 5px 0px;
 }
 
-img{
-		height:170px;
-		width:280px;
+.col img{
+		width:381px;
+		height:250px;
 }
