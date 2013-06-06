@@ -98,11 +98,13 @@ div#Eventslideshow {
 	list-style-type: none;
 	float:left;
 	background-color:#22B573;
-	margin-left: 50px;	
+	margin-left: 50px;
+	margin-top: 10px;
 
 }
 
 div#upcomingevents {
+	margin-top: 20px;
 	margin-left:974px;
 	margin-right:50px;
 	color:white;
@@ -112,4 +114,60 @@ div#upcomingevents {
 	padding-right:15px;
 	padding-bottom:28px;
 
+}
+
+
+section {
+		width:383px;	
+		height:200px;
+		padding:0px 0 0 0;
+		margin: 20px 0px 6px 50px;
+		border: 0px solid #22B573;
+		float:left;
+}
+
+.col header{
+		background-color: #22B573;
+		padding-top: 10px;
+		height: 30px;
+}
+
+.col h3 {
+		color:white;
+		text-align: center;
+		font-size:20px;
+		margin: 0px 0 0 0;
+}
+
+.col p {
+		color:#000000;
+		font-family:Arial, san-serif;
+		font-size: 12px;
+		margin: 5px 0px 5px 0px;
+}
+
+.col img{
+		width:381px;
+		height:250px;
+}
+
+
+nav#accountnav a:link {
+	color:white;
+	text-decoration:none;
+}
+
+nav#accountnav a:visited {
+	color: white;
+	text-decoration:none;
+}
+
+nav#accountnav a:hover {
+	color: #FFCC99;
+	text-decoration:none;
+}
+
+nav#accountnav a:active {
+	color: #FF5500;
+	text-decoration:none;
 }
