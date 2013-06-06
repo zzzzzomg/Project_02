@@ -1,0 +1,195 @@
+*{  
+   margin:0;  
+   padding:0;  
+} 
+ 
+body {
+	
+	font-family: arial;
+	
+}
+
+div#logo {
+	float:left;
+	margin: 10px 10px 10px 50px;
+}
+
+
+nav#accountnav {
+	
+	text-align:right;
+	background-color:#22B573;
+	padding:7px;
+	
+}
+
+
+nav#accountnav a:link {
+	color:white;
+	text-decoration:none;
+}
+
+nav#accountnav a:visited {
+	color: white;
+	text-decoration:none;
+}
+
+nav#accountnav a:hover {
+	color: #FFCC99;
+	text-decoration:none;
+}
+
+nav#accountnav a:active {
+	color: #FF5500;
+	text-decoration:none;
+}
+
+
+
+
+nav#mainnav {
+	
+	float: left;
+	margin: 145px 0 10px 15px;
+	}
+	
+nav#mainnav li {
+	margin: 100px;
+}
+
+
+
+
+
+
+nav#mainnav a:link {
+	color:black;
+	text-decoration:none;
+}
+
+nav#mainnav a:visited {
+	color: black;
+	text-decoration:none;
+}
+
+nav#mainnav a:hover {
+	color: #FFCC99;
+	text-decoration:none;
+}
+
+nav#mainnav a:active {
+	color: #FF5500;
+	text-decoration:none;
+}
+
+
+
+
+div#search {
+	margin: 145px 50px 10px 0;
+	text-align:right;
+}
+
+
+
+div#Eventslideshow {
+	list-style-type: none;
+	float:left;
+	background-color:#22B573;
+	margin-left: 50px;
+	margin-top: 10px;
+
+}
+
+div#upcomingevents {
+	width: 396px;
+	height: 350px;
+	margin-top: 20px;
+	margin-left:674px;
+	margin-right:50px;
+	color:white;
+	background-color:#404041;
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:28px;
+
+}
+
+
+section {
+		width:500px;	
+		height:200px;
+		padding:0px 0 0 0;
+		margin: 50px 0px 6px 50px;
+		border: 0px solid #22B573;
+		float:left;
+		display:block;
+}
+
+.col header{
+		background-color: #22B573;
+		padding-top: 10px;
+		height: 30px;
+}
+
+.col h3 {
+		color:white;
+		text-align: left;
+		font-size:20px;
+		margin: 0px 0 0 0;
+		padding-left: 10px;
+}
+
+.col p {
+		color:#000000;
+		font-family:Arial, san-serif;
+		font-size: 12px;
+		margin: 5px 0px 5px 0px;
+		padding:5px 10px 10px 10px;
+}
+
+.col img {
+		float: left;
+		padding: 10px 0 0 0;
+		margin-right:10px;
+}
+
+div#upcomingevents a:link {
+	color:white;
+	text-decoration:none;
+}
+
+div#upcomingevents a:visited {
+	color: white;
+	text-decoration:none;
+}
+
+div#upcomingevents a:hover {
+	color: #FFCC99;
+	text-decoration:none;
+}
+
+div#upcomingevents a:active {
+	color: #FF5500;
+	text-decoration:none;
+}
+
+#seachbox {
+	  
+	   width: 297px;
+	      padding: 15px 0 15px 20px;
+	      font-size: 16px;
+	      font-family: Montserrat, sans-serif;
+	      border: 0 none;
+	      height: 52px;
+	      margin-right: 0;
+	      color: white;
+	      outline: none;
+	      background: #1f7f5c;
+	      float: left;
+	      box-sizing: border-box;
+    transition: all 0.15s;
+	  
+    
+    }
