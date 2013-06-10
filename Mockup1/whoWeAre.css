@@ -1,7 +1,8 @@
 *{  
    margin:0;  
    padding:0;  
-}  
+} 
+ 
 body {
 	
 	font-family: arial;
@@ -84,56 +85,9 @@ nav#mainnav a:active {
 
 
 
-
-
-
-
-
 div#search {
-	margin: 130px 50px 10px 0;
+	margin: 145px 50px 10px 0;
 	text-align:right;
-	
-}
-
-
-
-#searchbox {
-	   background: #22B573;
-	   outline: none;
-	   color: white;
-	   border: 0 none;
-	   height:30px;
-	
-	   
-}
-
-::-webkit-input-placeholder { /* WebKit browsers */
-    color: white;
-    
- }
-
-select {
-	background: white;
-	outline: none;
-	 height:30px;
-
-	 
-	 
-}
-
-
-
-
-#submit {
-    border: 0 none;
-    background: #22B573  center no-repeat;
-    width: 60px;
-    color: white;
-
-    padding: 0;
-    text-align: center;
-    height: 30px;
-    cursor: pointer;
 }
 
 
@@ -148,27 +102,29 @@ div#Eventslideshow {
 }
 
 div#upcomingevents {
+	width: 596px;
+	height: 350px;
 	margin-top: 20px;
-	margin-left:974px;
+	margin-left:674px;
 	margin-right:50px;
 	color:white;
 	background-color:#404041;
 	padding-top:10px;
 	padding-left:15px;
 	padding-right:15px;
-	padding-bottom:37px;
+	padding-bottom:28px;
 
 }
 
 
 section {
-		width:383px;	
+		width:600px;	
 		height:200px;
 		padding:0px 0 0 0;
 		margin: 20px 0px 6px 50px;
 		border: 0px solid #22B573;
 		float:left;
-		
+		display:block;
 }
 
 .col header{
@@ -179,9 +135,10 @@ section {
 
 .col h3 {
 		color:white;
-		text-align: center;
+		text-align: left;
 		font-size:20px;
 		margin: 0px 0 0 0;
+		padding-left: 10px;
 }
 
 .col p {
@@ -189,13 +146,14 @@ section {
 		font-family:Arial, san-serif;
 		font-size: 12px;
 		margin: 5px 0px 5px 0px;
+		padding:5px 10px 10px 10px;
 }
 
-.col img{
-		width:381px;
-		height:250px;
+.col img {
+		float: left;
+		padding: 10px 0 0 0;
+		margin-right:10px;
 }
-
 
 div#upcomingevents a:link {
 	color:white;
@@ -217,4 +175,21 @@ div#upcomingevents a:active {
 	text-decoration:none;
 }
 
-
+#seachbox {
+	  
+	   width: 297px;
+	      padding: 15px 0 15px 20px;
+	      font-size: 16px;
+	      font-family: Montserrat, sans-serif;
+	      border: 0 none;
+	      height: 52px;
+	      margin-right: 0;
+	      color: white;
+	      outline: none;
+	      background: #1f7f5c;
+	      float: left;
+	      box-sizing: border-box;
+    transition: all 0.15s;
+	  
+    
+    }
