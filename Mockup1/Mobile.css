@@ -66,9 +66,42 @@ nav a:hover, nav a:active {
 
 
 
-@ media screen and (max-width 600px){
+@ media screen and (max-width 400px){
+
+nav {  
+        border-bottom: 0;  
+    }  
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #283744;  
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        rightright: 15px;  
+        top: 10px;  
+    }  
+}  
 
 
 
-
-}
+$(function() {  
+    var pull        = $('#pull');  
+        menu        = $('nav ul');  
+        menuHeight  = menu.height();  
+  
+    $(pull).on('click', function(e) {  
+        e.preventDefault();  
+        menu.slideToggle();  
+    });  
+});  
