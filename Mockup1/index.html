@@ -9,25 +9,47 @@
 
 	<head>
   		<meta charset="UTF-8">
+
   		<title>Baked Bread</title>
+
   		<link rel="stylesheet" type="text/css" href="Mobile.css" />
+
+		<link rel="stylesheet" type="text/css" href="normalize.css">
 
   		<meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
 
-  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
+  		<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js"></script>
 
-  		 <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js"></script>
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
 
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+
+				$(window).resize(function(){
+					var w = $(window).width();
+					if(w > 320 && menu.is(':hidden')) {
+						menu.removeAttr('style');
+					}
+				});
+			});
+		</script>
 
 
 	</head>
 
 
 
-
-
   	<body>
+
+
 	  <nav id="accountnav">
 	  	<p>
 		<a href="">Register/Login</a>
@@ -40,11 +62,8 @@
 		</div>
 
 
-
-
 		<nav id="mainnav">
 			<ul>
-
 				<li><a href="">PRODUCTS</a></li>
 				<li><a href="">CATERING</a></li>
 				<li><a href="">EVENTS</a></li>
@@ -71,7 +90,7 @@
 
 		<div id="Eventslideshow">
 			<ul class="eventsslide">
-				<p><img src="image/event1.jpg" height="300" width="900" alt="eventphoto1" /> </p>
+				<li><img src="image/event1.jpg" height="300" width="900" alt="eventphoto1" /> </li>
 			</ul>
 		</div>
 
@@ -81,7 +100,7 @@
 		<a href="http://www.youtube.com">
 
 			<h1>Annual Bake Sale!</h1>
-			</br>
+
 			<p>
 				Hey guys, to celebrate our second year anniversary, we are going to have a huge sale that will only be happen on May 12! Stores will open at the same time as usual. Supplies are limited, please come early if you do not want to be disappointed. All Customers will receive a free loafof our up and coming concept bread.
 			</p>
@@ -91,13 +110,13 @@
 			</a>
 		</div>
 
-			<div id="cols col3">
+			<div id="colscol3">
 					<section class="col">
 						<header>
 							<h3> Place Order </h3>
 						</header>
 						<br />
-						<a href="http://www.google.ca"><img src="image/orderMe.jpg"/></a>
+						<a href="http://www.google.ca"><img src="image/orderMe.jpg" alt="order" /></a>
 						<p>
 							Please order 24 hours in advanced. Come into the store for pickups.
 						</p>
@@ -120,7 +139,7 @@
 						<br />
 						<p>Phone: (778) 554 1992</p>
 						<p>Business Hours: Open 9 to 5 Daily. Close on holidays.</p>
-						<a href="http://www.facebook.com"><img src="image/location.jpg"/></a>
+						<a href="http://www.facebook.com"><img src="image/location.jpg" alt="location" /></a>
 						<p>
 						We are located at 24 W Hastings St  Vancouver, BC V6B 1T1
 						</p>
