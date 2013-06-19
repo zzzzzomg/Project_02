@@ -1,0 +1,45 @@
+nav ul {
+	
+	display:none;
+	background: black;
+	border: white solid 1px;
+	background-size:90% 90%;
+	height: 100px;
+    text-align:center;
+    
+}
+
+nav ul li {
+
+
+}
+
+
+
+
+
+body {
+
+		background: blue;
+
+}
+
+#pull {
+	display: block;
+	width: 100%;
+	
+	background: black;
+	border: solid white 1pt;
+	
+	top:;
+
+
+}
+
+.slide {
+		text-align: right;
+
+
+}
+
+

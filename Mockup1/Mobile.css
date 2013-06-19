@@ -22,8 +22,8 @@ nav ul {
 }  
 
 nav li {  
-    display: inline;  
-    float: left;  
+	    display: inline;  
+	    float: left;  
 }
 
 	
@@ -64,19 +64,24 @@ nav a:hover, nav a:active {
     background-color: #8c99a4;  
 }  
 
+nav a#pull {
+	display: none;
+}
 
 
 
 /*Tablets*/
 
-@ media screen and (max-width 400px){
+@ media only screen and (max-width 400px){
 
 	nav {  
 		border-bottom: 0;  
+		height: auto;
 	    }  
 	    nav ul {  
 		display: none;  
 		height: auto;  
+		width: 100%;
 	    }  
 	    nav a#pull {  
 		display: block;  
@@ -98,11 +103,6 @@ nav a:hover, nav a:active {
 
 
 
-
-
-
-
-
 /*Smartphone*/
 
 @media only screen and (max-width : 320px) {
@@ -115,3 +115,4 @@ nav a:hover, nav a:active {
 		border-bottom: 1px solid #576979;
 	}
 }
+

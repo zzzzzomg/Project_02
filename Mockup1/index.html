@@ -14,31 +14,28 @@
 
   		<link rel="stylesheet" type="text/css" href="Mobile.css" />
 
-		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">  <!-- Used to normalize browser-->
 
   		<meta name="viewport" content="width=device-width, intial-scale=1, maximum-scale=1">
 
-  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
-  		<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.6/webfont.js"></script>
 
 		<script>
 			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
+						var pull 		= $('#pull');
+							menu 		= $('nav ul');
+							menuHeight	= menu.height();
 
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
+						$(pull).on('click', function() {
+							e.preventDefault();
+							menu.slideToggle();
+						});
 
-				$(window).resize(function(){
-					var w = $(window).width();
-					if(w > 320 && menu.is(':hidden')) {
-						menu.removeAttr('style');
-					}
-				});
+						$(window).resize(function(){
+							var w = $(window).width();
+							if(w > 320 && menu.is(':hidden')) {
+								menu.removeAttr('style');
+							}
+						});
 			});
 		</script>
 
@@ -105,7 +102,7 @@
 				Hey guys, to celebrate our second year anniversary, we are going to have a huge sale that will only be happen on May 12! Stores will open at the same time as usual. Supplies are limited, please come early if you do not want to be disappointed. All Customers will receive a free loafof our up and coming concept bread.
 			</p>
 			<p>
-				-Ken & Julie
+				-Ken and Julie
 			</p>
 			</a>
 		</div>
