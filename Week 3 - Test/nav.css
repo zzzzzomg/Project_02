@@ -1,5 +1,60 @@
+/*  Normalize  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
-/* Style for 1024pxand bigger */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Normalize end */
+
+
+/* Style for 1024px and bigger */
 
 
 
@@ -7,25 +62,24 @@
 
 nav ul {
 	
-	display:none;
-	background: red;
-	
+	display: none;
+	background: #22B573;
 	height:auto;
     padding: 0;
 
   
 }
-
 nav li {
-	height: 40px
+	height: 30px;
 	text-align: center;
 	list-style-type: none;
-	border-top: solid white .5px;
-	border-bottom:solid white .5px;
-	display: block;
-	
+	border-bottom: solid #4EC48F 1px;
+	padding-top: 13px;
+	margin-top: 0;
 	margin-bottom: 0;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
 }
+
 
 
 
@@ -40,9 +94,10 @@ body {
 
 #pull {
 	display: block;
-	background: black;
+	background: #464F4B;
 	border-bottom: solid #283744;
-	height: 60px;
+	height: 30px;
+	padding-top: 15px;
 
 
 
@@ -50,7 +105,6 @@ body {
 
 .slide {
 		text-align: right;
-		margin-top: -20px;
 		margin-bottom: 0;
 }
 
@@ -66,8 +120,19 @@ nav a:visited {
 
 nav a:hover {
 	color: #FFCC99;
+	opacity: .5;
 }
 
-nav a:active {
-	color: #FF5500;
+/* Icon Font */
+
+@font-face {
+    font-family: 'ChunkFiveRegular';
+    src: url('font/Chunkfive-webfont.eot');
+    src: url('font/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/Chunkfive-webfont.woff') format('woff'),
+         url('font/Chunkfive-webfont.ttf') format('truetype'),
+         url('font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
