@@ -1,23 +1,30 @@
 
+/* Style for 1024pxand bigger */
+
+
+
+/* Style for 500px and smaller */
+
 nav ul {
 	
 	display:none;
 	background: red;
 	
 	height:auto;
-    
+    padding: 0;
 
   
 }
 
 nav li {
-	height: 40px;
-	
+	height: 40px
+	text-align: center;
 	list-style-type: none;
-	border-top: solid white;
-	border-bottom:solid white;
+	border-top: solid white .5px;
+	border-bottom:solid white .5px;
 	display: block;
-
+	
+	margin-bottom: 0;
 }
 
 
@@ -33,16 +40,34 @@ body {
 
 #pull {
 	display: block;
-	
 	background: black;
 	border-bottom: solid #283744;
-	
+	height: 60px;
+
 
 
 }
 
 .slide {
 		text-align: right;
+		margin-top: -20px;
+		margin-bottom: 0;
+}
 
 
+nav a:link {
+	color:white;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: white;
+}
+
+nav a:hover {
+	color: #FFCC99;
+}
+
+nav a:active {
+	color: #FF5500;
 }
