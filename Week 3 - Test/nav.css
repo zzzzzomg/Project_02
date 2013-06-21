@@ -45,14 +45,17 @@ body {
 	border-bottom: solid #283744;
 	height: 30px;
 	padding-top: 15px;
-
-
-
 }
 
 .slide {
 		text-align: right;
 		margin-bottom: 0;
+}
+
+
+# search { float:left;
+
+
 }
 
 
