@@ -138,9 +138,13 @@
 
 	nav a:hover {
 		color: #4DBCE9;
-		opacity: .5;
+		opacity: 1;
 	}
 
+	nav a:active {
+		color: red;
+		opacity: 0.1;
+	}
 
 
 	/* Menu Bar - End*/
