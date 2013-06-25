@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2012 by original authors @ fontello.com</metadata>
+<defs>
+<font id="typeicons" horiz-adv-x="1000" >
+<font-face font-family="typeicons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="home" unicode="&#xe805;" d="M888 336q16-16 11-27t-27-11l-84 0 0-310q0-14-1-21t-8-13-23-6l-204 0 0 310-204 0 0-310-194 0q-28 0-35 10t-7 30l0 310-84 0q-22 0-27 11t11 27l400 402q16 16 38 16t38-16z" horiz-adv-x="900" />
+<glyph glyph-name="menu" unicode="&#xe800;" d="M834 90q43 0 73-31t31-74q0-43-30-73t-74-31l-730 0q-44 0-74 31t-30 73q0 44 31 74t73 31l730 0z m0 364q44 0 74-31t30-73-30-73-74-31l-730 0q-44 0-74 31t-30 73 30 73 74 31l730 0z m0 365q44 0 74-31t30-73q0-44-31-74t-73-31l-730 0q-43 0-73 31t-31 74q0 43 30 73t74 31l730 0z" horiz-adv-x="938" />
+<glyph glyph-name="basket" unicode="&#xe804;" d="M150 0q0 40 30 70t70 30q42 0 71-30t29-70q0-42-29-71t-71-29q-40 0-70 29t-30 71z m500 0q0 40 30 70t70 30q42 0 71-30t29-70q0-42-29-71t-71-29q-40 0-70 29t-30 71z m-322 236q-36-10-34-23t44-13l562 0 0-76q0-20-20-20l-654 0q-20 0-20 20l0 76-10 46-98 454-98 0 0 80q0 20 20 20l156 0q20 0 20-20l0-86 704 0 0-274q0-22-18-26z" horiz-adv-x="900" />
+<glyph glyph-name="twitter" unicode="&#xe803;" d="M920 636q-36-54-94-98l0-24q0-130-60-250t-186-203-290-83q-160 0-290 84 14-2 46-2 132 0 234 80-62 2-110 38t-66 94q10-4 34-4 26 0 50 6-66 14-108 66t-42 120l0 2q36-20 84-24-84 58-84 158 0 48 26 94 154-188 390-196-6 18-6 42 0 78 55 133t135 55q82 0 136-58 60 12 120 44-20-66-82-104 56 8 108 30z" horiz-adv-x="920" />
+<glyph glyph-name="facebook" unicode="&#xe802;" d="M500 644l-142 0q-14 0-25-15t-11-37l0-102 178 0 0-148-178 0 0-442-170 0 0 442-152 0 0 148 152 0 0 86q0 94 59 159t147 65l142 0 0-156z" horiz-adv-x="500" />
+<glyph glyph-name="search" unicode="&#xe801;" d="M335 246l25-25q-28-28-86-86t-73-74l-27 27q16 15 74 73t86 85z m245 551q137 0 234-97t98-234-98-234-234-97q-64 0-123 24l-255-256-184 184 256 255q-26 63-26 123 0 137 98 234t234 97z m0-551q92 0 156 65t64 156-64 155-156 64-156-64-64-155 64-156 156-65z" horiz-adv-x="928" />
+</font>
+</defs>
+</svg>

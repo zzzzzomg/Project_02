@@ -1,88 +1,287 @@
 
 
-
 /* Style for 1024px and bigger */
 
 
 
-/* Style for 500px and smaller */
 
-nav ul {
-	
-	display: none;
-	background: #22B573;
-	height:auto;
-    padding: 0;
+/* Style for 768px and smaller (Landscape) */
 
-  
-}
-nav li {
-	height: 30px;
-	text-align: center;
-	list-style-type: none;
-	border-bottom: solid #4EC48F 1px;
-	padding-top: 13px;
-	margin-top: 0;
-	margin-bottom: 0;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
-}
+@media only screen and (max-width : 768px) and (min-width : 400px){
 
 
 
-
-
-body {
-		background: #ece8e5;
-}
+	/* Menu Bar */
 
 
 
+	nav ul {
+		
+		display: none;
+		height:auto;
+	    padding: 0;
+	    font-family: 'Open Sans', sans-serif;
+	    font-size: 1em;
+	}
 
-
-#pull {
-	display: block;
-	background: #464F4B;
-	border-bottom: solid #283744;
-	height: 30px;
-	padding-top: 15px;
-}
-
-.slide {
-		text-align: right;
+	nav li {
+		height: 30px;
+		background: #22B573;
+		text-align: center;
+		list-style-type: none;
+		outline: solid #4EC48F 1px;
+		padding-top: 13px;
+		margin-top: 0;
 		margin-bottom: 0;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+		width: 50%;
+		float:left;
+		position: relative;
+	}
+
+
+
+
+
+	body {
+			background: #ece8e5;
+
+	}
+
+
+
+
+
+
+
+	#logotype {
+		display: block;
+		background: #464F4B;
+		border-bottom: solid #808080 1px;
+		
+		height: 30px;
+		padding-top: 15px;
+		float:left;
+		text-align: center;
+		width: 80%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+			
+	}
+
+	#pull {
+		display: block;
+		background: #22B573;
+		border-bottom: solid #808080 1px;
+		height: 30px;
+		padding-top: 15px;
+		float:right;
+		width: 10%;
+		text-align: center;
+	}
+
+
+
+	#searchbutton {
+		display: block;
+		background: #466190;
+		border-bottom: solid #808080 1px;
+		
+		height: 30px;
+		padding-top: 15px;
+		float:left;
+		width: 10%;
+		text-align: center;
+
+	}
+
+	#search {
+				display: none;
+				background: #466190;
+				border-bottom: solid #808080 1px;
+				
+				height: 35px;
+				padding-top: 10px;
+				float:left;
+				text-align: center;
+				width: 100%;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+				
+
+
+	}
+
+
+
+
+
+
+	.slide {
+			text-align: right;
+			margin-bottom: 0;
+
+	}
+
+
+
+
+	nav a:link {
+		color:white;
+		text-decoration: none;
+	}
+
+	nav a:visited {
+		color: white;
+	}
+
+
+	nav a:hover {
+		color: #4DBCE9;
+		opacity: .5;
+	}
+
+
+
+	/* Menu Bar - End*/
+
+
+
+
+
+
+
 }
 
 
-# search { float:left;
 
 
-}
 
 
-nav a:link {
-	color:white;
-	text-decoration: none;
-}
 
-nav a:visited {
-	color: white;
-}
+/* Style for 400px and smaller (Portrait) */
+@media only screen and (max-width : 400px) {
 
-nav a:hover {
-	color: #FFCC99;
-	opacity: .5;
-}
 
-/* Icon Font */
 
-@font-face {
-    font-family: 'ChunkFiveRegular';
-    src: url('font/Chunkfive-webfont.eot');
-    src: url('font/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('font/Chunkfive-webfont.woff') format('woff'),
-         url('font/Chunkfive-webfont.ttf') format('truetype'),
-         url('font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+
+
+	nav ul {
+		
+		display: none;
+		background: #22B573;
+		height:auto;
+	    padding: 0;
+	    font-family: 'Open Sans', sans-serif;
+	  
+	}
+
+	nav li {
+		height: 30px;
+		text-align: center;
+		list-style-type: none;
+		border-bottom: solid #4EC48F 1px;
+		padding-top: 13px;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+	}
+
+
+
+
+	body {
+			background: #ece8e5;
+
+	}
+
+
+
+
+	#logotype {
+		display: block;
+		background: #464F4B;
+		border-bottom: solid #808080 1px;
+		
+		height: 30px;
+		padding-top: 15px;
+		float:left;
+		text-align: center;
+		width: 70%;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		
+	}
+
+	#pull {
+		display: block;
+		background: #22B573;
+		border-bottom: solid #808080 1px;
+		
+		height: 30px;
+		padding-top: 15px;
+		float:right;
+		width: 15%;
+		text-align: center;
+	}
+
+
+
+	#searchbutton {
+		display: block;
+		background: #466190;
+		border-bottom: solid #808080 1px;
+		
+		height: 30px;
+		padding-top: 15px;
+		float:left;
+		width: 15%;
+		text-align: center;
+
+	}
+
+	#search {
+				display: none;
+				background: #466190;
+				border-bottom: solid #808080 1px;
+				
+				height: 35px;
+				padding-top: 10px;
+				float:left;
+				text-align: center;
+				width: 100%;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 600;
+				
+
+
+	}
+
+
+
+
+	.slide {
+			text-align: right;
+			margin-bottom: 0;
+
+	}
+
+
+
+
+	nav a:link {
+		color:white;
+		text-decoration: none;
+	}
+
+	nav a:visited {
+		color: white;
+	}
+
+
+	nav a:hover {
+		color: #466190;
+		opacity: .1;
+	}
 
 }
